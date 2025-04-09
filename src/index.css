@@ -1,0 +1,248 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+a,li,i{
+    text-decoration: none;
+    list-style: none;
+}
+i::before {
+    font-family: "Font Awesome 5 Free", sans-serif;
+    font-family: 'Font Awesome 5 Free', 'FontAwesome', 'sans-serif' !important;
+}
+.headerdiv{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;         /* Fija el header en la parte superior */
+    left: 0;        /* Alinea el header al borde izquierdo */
+    width: 100%;    /* Asegura que el header ocupe todo el ancho */
+    z-index: 1000;  /* Asegura que el header esté por encima de otros elementos */
+}
+.headerdiv-nombre{
+    display: flex;
+}
+.headerdiv-nombre h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.headerdiv-nombre i{
+    margin-top: 3rem;
+    margin-left: 5px;
+    font-size: 1.5rem;
+}
+
+.headerdiv-enlaces ul{
+    /* background-color: cadetblue; */
+    width: 32rem;
+    margin-left: 50rem;
+    margin-top: 2.8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.headerdiv-enlaces li:hover{
+  background-color: red;
+  transition: 0.3s;
+}
+
+
+
+
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+
+
+/* App.css */
+
+/* Estilo básico para el botón de hamburguesa */
+.App{
+  display: none;
+}
+.botonhamburguesa {
+  font-size: 30px;
+  display: none; /* No visible por defecto en pantallas grandes */
+  cursor: pointer;
+}
+
+/* Estilos para el menú de navegación */
+.App nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.App nav ul li {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+/* Estilo para hacer que el botón de hamburguesa sea visible en pantallas pequeñas */
+@media (max-width: 768px) {
+  .App {
+    display: block; /* Mostrar la App en pantallas pequeñas */
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    text-align: center;
+    width: 9rem;
+  }
+  .botonhamburguesa {
+    display: block; /* Hacer visible el botón en pantallas pequeñas */
+  }
+
+  /* El menú está oculto por defecto en pantallas pequeñas */
+  .App nav {
+    display: none;
+    position: relative;
+    width: 9rem;
+    background-color: #333;
+    text-align: center;
+
+  }
+
+  /* Mostrar el menú cuando se hace clic en el botón */
+  .App nav.active {
+    display: block;
+  }
+
+  .App nav ul {
+    flex-direction: column; /* Apilar los elementos del menú verticalmente */
+  }
+
+  .App nav ul li {
+    margin: 10px 0;
+    color: white;
+  }
+}
+
+
+@media only screen and (max-width: 768px){
+  .headerdiv{
+      background-color: white;
+  }
+  .headerdiv-enlaces ul{
+      display: none;
+  }
+
+}
+
+
+
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+/*********************************************************************************/
+
+.hero{
+  /* background-color: #002147; */
+  /* background-color: #01BE96; */
+  background-color: black;
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.heroizquierda img{
+  margin-left: 15rem;
+}
+
+.heroderecha{
+  /* background-color: yellow; */
+  margin-top: 4rem;
+}
+.heroderecha-nombreycargo h1{
+  color: #01BE96;
+}
+.heroderecha-nombreycargo h2, p{
+  color: white;
+}
+.heroderecha-descripcion{
+  /* background-color: cadetblue; */
+  width: 50rem;
+  margin-top: 15px;
+  text-align: justify;
+}
+.heroderecha-iconos{
+  /* background-color: yellowgreen; */
+  display: flex;
+  margin-top: 1.5rem;
+}
+.heroderecha-iconos i{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+  color: #01BE96;
+}
+.heroderecha-iconos i:hover{
+  transform: translateY(-10px);
+} 
+.heroderecha-cv{
+  /* background-color: aqua; */
+  margin-top: 5rem;
+  width: 10rem;
+  margin-left: 20rem;
+  text-align: center;
+  padding: 1rem;
+  border: solid 1px #01BE96;
+}
+.heroderecha-cv a{
+  color: white;
+}
+.heroderecha-cv:hover{
+  background-color: #01BE96;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .hero{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .heroizquierda img{
+    margin-left: 0;
+    width: 23.41rem;
+    /* background-color: yellowgreen; */
+  }
+  .heroderecha{
+    /* background-color: yellowgreen; */
+    width: 9rem;
+  }
+  .heroderecha-nombreycargo{
+    /* background-color: wheat; */
+    width: 23.45rem;
+    text-align: center;
+  }
+  .heroderecha-descripcion{
+    /* background-color: violet; */
+    width: 23.45rem;
+    text-align: center;
+  }
+  .heroderecha-iconos{
+    /* background-color: peru; */
+    width: 13rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+  }
+  .heroderecha-cv{
+    /* background-color: blueviolet; */
+    margin-left: 0;
+    margin-left: 6rem;
+    margin-top: 2rem;
+  }
+
+}

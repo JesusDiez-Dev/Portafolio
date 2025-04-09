@@ -1,7 +1,10 @@
+import Header from "./components/Header"
+import Hero from "./components/Hero"
 function App() {
   return (
     <>
-      <h1>hola</h1>
+      <Header />
+      <Hero/>
     </>
   )
 }
