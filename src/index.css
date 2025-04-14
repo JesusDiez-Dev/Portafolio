@@ -181,6 +181,9 @@ i::before {
 }
 .heroizquierda img{
   margin-left: 15rem;
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
 }
 
 .heroderecha{
@@ -294,7 +297,7 @@ i::before {
   /* background-color: red; */
   display: flex;
   justify-content: space-evenly;
-  margin-top: 7rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
 }
 .acercademi-izquierda-texto{
