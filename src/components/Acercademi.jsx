@@ -3,9 +3,9 @@ import jugador from "../img/jugador.png"
 function Acercademi() {
   return (
     <>
-        <div className="acercademi">
+        <div className="acercademi" >
 
-            <div className='acercademi-izquierda'>
+            <div className='acercademi-izquierda' id="sobremi">
 
                 <div className='acercademi-izquierda-texto'>
                     <h2>Sobre mi</h2>
@@ -14,9 +14,9 @@ function Acercademi() {
 
                 <div className='acercademi-izquierda-info'>
                     <ul>
-                        <li><span>LinkedIn:</span> aa</li>
-                        <li><span>Contacto:</span> bb</li>
-                        <li><span>Correo:</span> cc</li>
+                        <li className='acercademi-izquierda-info-linkedin'><span>LinkedIn:</span><a href="https://www.linkedin.com/in/jes%C3%BAsdiez/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li className='acercademi-izquierda-info-correo'><span>Correo:</span><a href="mailto:jesu.alejandrox@gmail.com?subject=Consulta%20sobre%20un%20servicio&body=Hola,%20estoy%20interesado%20en%20más%20información%20sobre..."><i class="fa-regular fa-envelope"></i></a></li>
+                        
                     </ul>
                 </div>
 

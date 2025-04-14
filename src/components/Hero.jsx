@@ -17,16 +17,16 @@ function Hero() {
                 </div>
 
                 <div className="heroderecha-descripcion">
-                    <p>Con más de 1 año de experiencia en la creación de experiencias web atractivas y funcionales. Buen nivel en tecnologías front-end, incluyendo HTML5, CSS3, JavaScript y frameworks como React. Capaz de traducir diseños creativos en código interactivo y optimizar la velocidad y el rendimiento del sitio web</p>
+                    <p>Con más de 2 años de experiencia en la creación de experiencias web atractivas y funcionales. Buen nivel en tecnologías front-end, incluyendo HTML5, CSS3, JavaScript y frameworks como React. Capaz de traducir diseños creativos en código interactivo y optimizar la velocidad y el rendimiento del sitio web</p>
                 </div>
 
                 <div className='heroderecha-iconos'>
                     <p>Echa un vistaso a mi</p>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/jes%C3%BAsdiez/"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
 
                 <div className="heroderecha-cv">
-                    <a href="#">ver Currículum</a>
+                    <a href="#">Ver Currículum</a>
                 </div>
             
 

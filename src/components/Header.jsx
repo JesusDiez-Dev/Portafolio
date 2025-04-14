@@ -3,7 +3,7 @@ import MenuHamburguesa from './MenuHamburguesa'
 function Header() {
   return (
     <>
-        <header>
+        <header id="inicio">
             <div className='headerdiv'>
 
                 <div className='headerdiv-nombre'>
@@ -14,11 +14,11 @@ function Header() {
                 <div className='headerdiv-enlaces'>
                     <nav>
                         <ul>
-                            <li>Inicio</li>
-                            <li>Acerca de mi</li>
-                            <li>Habilidades</li>
-                            <li>Proyectos</li>
-                            <li>Contacto</li>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li> <a href="#sobremi">Acerca de mi</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                            <li><a href="#proyectos">Proyectos</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
                         </ul>
                     </nav>
 

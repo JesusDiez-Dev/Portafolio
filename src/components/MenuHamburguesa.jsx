@@ -15,11 +15,11 @@ const App = () => {
         </div>
         <nav className={isMenuOpen ? "active" : ""}>
           <ul>
-            <li>Inicio</li>
-            <li>Acerca de mí</li>
-            <li>Habilidades</li>
-            <li>Proyectos</li>
-            <li>Contacto</li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li> <a href="#sobremi">Acerca de mi</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </header>
