@@ -234,7 +234,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/LaBarber/">Ver proyecto</a>
+                <a href="https://yisus01.github.io/PokeApi/">Ver proyecto</a>
               </div>
             </div>
           </div>
