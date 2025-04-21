@@ -1,3 +1,5 @@
+@import 'normalize.css';
+@import '../src/normalize.css';
 *, *:before, *:after {
     box-sizing: inherit;
     padding: 0;
