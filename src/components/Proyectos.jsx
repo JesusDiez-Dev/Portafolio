@@ -4,11 +4,13 @@ import veterinaria from "../img/veterinaria.png"
 import labarberia from "../img/labarberia.png"
 import blog from "../img/Blog Games.png"
 import portafoliodesactualizado from "../img/Portafoliodesactualizado.png"
+import pokeapi from "../img/pokeapi.png"
 import tailwind from "../img/tailwindcss.png"
 import figma from "../img/figma.png";
 import html from "../img/html-5.png";
 import css from "../img/css-3.png";
 import js from "../img/js.png";
+import api from "../img/api.png"
 function Proyectos() {
   return (
     <>
@@ -152,6 +154,87 @@ function Proyectos() {
 
               <div className="proyectos-grid-item-flex-boton">
                 <a href="https://yisus01.github.io/AgendarCitas/">Ver proyecto</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="proyectos-grid-item">
+            <div className="proyectos-grid-item-flex">
+              <div className="proyectos-grid-item-flex-img">
+                <img src={pokeapi} alt="clonmercado" />
+              </div>
+
+              <div className="proyectos-grid-item-flex-titulo">
+                <h2>Busca tu pokemon con PokeApi</h2>
+              </div>
+
+              <div className="proyectos-grid-item-flex-parrafo">
+                <p>
+                  Proyecto de consumo de API de PokeApi en el cual
+                  practique como consumir una API con AXIOS
+                </p>
+              </div>
+
+              <div className="proyectos-grid-item-flex-tecnologias">
+                <h2>Tecnologías</h2>
+              </div>
+
+              <div className="proyectos-grid-item-flex-iconos">
+                <div className="proyectos-grid-item-flex-iconos-html">
+                  {/* <i class="fa-brands fa-html5"></i> */}
+                  <img src={html} alt="" />
+                  <p>HTML</p>
+                </div>
+
+                <div className="proyectos-grid-item-flex-iconos-css">
+                  {/* <i class="fa-brands fa-css3-alt"></i> */}
+                  <img src={css} alt="" />
+                  <p>CSS</p>
+                </div>
+
+                <div className="proyectos-grid-item-flex-iconos-js">
+                  {/* <i class="fa-brands fa-js"></i> */}
+                  <img src={js} alt="" />
+                  <p>JavaScript</p>
+                </div>
+
+                <div className="proyectos-grid-item-flex-iconos-react">
+                  <i class="fa-brands fa-react"></i>
+                  <p>REACT</p>
+                </div>
+
+                {/* <div className="proyectos-grid-item-flex-iconos-bootstrap">
+                  <i class="fa-brands fa-bootstrap"></i> 
+                  <img src={bootstrap} alt="" />
+                  <p>Bootstrap</p>
+                </div> */}
+
+                {/* <div className="proyectos-grid-item-flex-iconos-figma">
+                <img src={figma} alt="" />
+                <p>FIGMA</p>
+                </div> */}
+
+                <div className="proyectos-grid-item-flex-iconos-github">
+                  <i class="fa-brands fa-github"></i>
+                  {/* <img src={github} alt="" /> */}
+                  <p>GITHUB</p>
+                </div>
+
+                <div className="proyectos-grid-item-flex-iconos-git">
+                  {/* <i class="fa-brands fa-git-alt"></i> */}
+                  {/* <img src={git} alt="" /> */}
+                  {/* <p>GIT</p> */}
+                </div>
+
+                <div className="proyectos-grid-item-flex-iconos-api">
+                  {/* <i class="fa-brands fa-git-alt"></i> */}
+                  <img src={api} alt="" />
+                  <p>API REST</p>
+                </div>
+              </div>
+
+              <div className="proyectos-grid-item-flex-boton">
+                <a href="https://yisus01.github.io/LaBarber/">Ver proyecto</a>
               </div>
             </div>
           </div>

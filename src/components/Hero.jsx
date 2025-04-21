@@ -26,7 +26,7 @@ function Hero() {
                 </div>
 
                 <div className="heroderecha-cv">
-                    <a href="#">Ver Currículum</a>
+                    <a href="https://drive.google.com/file/d/1ESEtW8yFAX2ScyHOh-hfGWqkwaRqoavo/view?usp=drive_link">Ver Currículum</a>
                 </div>
             
 

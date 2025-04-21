@@ -30,6 +30,7 @@ i::before {
 }
 .headerdiv{
     background-color: white;
+    /* background-color: red; */
     display: flex;
     justify-content: space-evenly;
     position: fixed;
@@ -152,7 +153,10 @@ i::before {
 @media only screen and (max-width: 768px){
   .headerdiv{
       background-color: white;
+      /* background-color: red; */
+      height: 1rem;
       border-bottom: solid 2px #01BE96;
+      padding-bottom: 6.1rem;
       /* box-shadow: 0 10px 15px rgba(1, 190, 150, 0.3); */
   }
   .headerdiv-enlaces ul{
@@ -259,8 +263,9 @@ i::before {
   }
   .heroderecha-descripcion{
     /* background-color: violet; */
-    width: 26.72rem;
+    width: 25rem;
     text-align: center;
+    margin-left: 6px;
   }
   .heroderecha-iconos{
     /* background-color: peru; */
@@ -366,13 +371,14 @@ i::before {
   }
   .acercademi-izquierda-texto{
     /* background-color: red; */
-    width: 26.6rem;
+    width: 25rem;
     text-align: center;
+    margin-left: 5px;
   }
   .acercademi-izquierda-info ul{
     /* background-color: red; */
     width: 10rem;
-    margin-left: 10rem;
+    margin-left: 7rem;
   }
   .acercademi-izquierda-info i{
     position: relative;
@@ -381,7 +387,7 @@ i::before {
   .acercademi-derecha img{
     width: 20rem;
     margin-left: 0;
-    margin-left: 5rem;
+    margin-left: 3.9rem;
     margin-top: 5rem;
 
   }
@@ -431,7 +437,6 @@ i::before {
   margin-top: 2rem;
 }
 
-
 .proyectos-grid-item-flex-iconos-html img{
   /* color:#FF5722; */
   width: 4rem;
@@ -476,6 +481,13 @@ i::before {
 .proyectos-grid-item-flex-iconos-git i{
   color: #F34F29;
 }
+.proyectos-grid-item-flex-iconos-api img{
+  width: 4rem;
+  margin-top: -2rem;
+  position: relative;
+  top: 3px;
+  /* background-color: blue; */
+}
 
 @media (max-width: 768px){
   .habilidades{
@@ -487,12 +499,14 @@ i::before {
     width: 26.6rem;
   }
   .habilidades-parrafo{
-    width: 26.6rem;
+    width: 25rem;
+    margin-left: 5px;
+    /* background-color: red; */
   }
   .habilidades-iconos{
     /* background-color: #58C4DC; */
-    width: 26.6rem;
-    margin-left: 0;
+    width: 25rem;
+    margin-left: 5px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
   }
@@ -595,15 +609,29 @@ i::before {
   .proyectos-grid-item-flex{
     /* background-color: red; */
     width: 26.6rem;
+    border: solid 1px rgb(219, 219, 219);
+  }
+  .proyectos-grid-item-flex-img{
+    /* background-color: red; */
+    margin-left: 0;
+    margin-right: 13px;
   }
   .proyectos-grid-item-flex-img img{
-    width: 26em;
-    margin-left: 0;
+    width: 25em;
+    text-align: center;
+    border: none;
   }
   .proyectos-grid-item-flex-iconos{
     /* background-color: aqua; */
     display: grid;
     grid-template-columns: repeat(5,1fr);
+    width: 25rem;
+    margin-left: 5px;
+  }
+  .proyectos-grid-item-flex-parrafo{
+    /* background-color: red; */
+    width: 22rem;
+    margin-left: 1.7rem;
   }
 }
 /*********************************************************************************/
@@ -656,5 +684,10 @@ i::before {
   .footerdiv-redes{
     /* background-color: aquamarine; */
     margin-left: 9rem;
+  }
+  .footerdiv-parrafo{
+    /* background-color: red; */
+    width: 25rem;
+    margin-left: 6px;
   }
 }
