@@ -48,10 +48,10 @@ i::before {
 }
 .headerdiv-nombre h2{
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .headerdiv-nombre i{
-    margin-top: 2.9rem;
+    margin-top: 3.5rem;
     margin-left: 5px;
     font-size: 1.5rem;
     color: #01BE96;
@@ -115,7 +115,7 @@ i::before {
   .App {
     display: block; /* Mostrar la App en pantallas pequeñas */
     position: absolute;
-    top: 2rem;
+    top: 3rem;
     right: 1rem;
     text-align: center;
     width: 9rem;
@@ -162,8 +162,9 @@ i::before {
       /* box-shadow: 0 10px 15px rgba(1, 190, 150, 0.3); */
   }
   .headerdiv-enlaces ul{
-      display: none;
+      display: none;   
   }
+
 
 }
 
@@ -626,14 +627,28 @@ i::before {
   .proyectos-grid-item-flex-iconos{
     /* background-color: aqua; */
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(4,1fr);
     width: 25rem;
-    margin-left: 5px;
+    /* margin-left: 5px; */
+  }
+  .proyectos-grid-item-flex-titulo{
+    /* background-color: red; */
+    width: 24.2rem;
+  }
+  .proyectos-grid-item-flex-tecnologias{
+    /* background-color: red; */
+    margin-left: 0;
+    width: 25rem;
   }
   .proyectos-grid-item-flex-parrafo{
     /* background-color: red; */
     width: 22rem;
     margin-left: 1.7rem;
+  }
+  .proyectos-grid-item-flex-boton{
+    margin-left: 4.5rem;
+    /* background-color: red; */
+    width: 15rem;
   }
 }
 /*********************************************************************************/
@@ -685,11 +700,11 @@ i::before {
 @media (max-width: 768px){
   .footerdiv-redes{
     /* background-color: aquamarine; */
-    margin-left: 9rem;
+    margin-left: 8rem;
   }
   .footerdiv-parrafo{
     /* background-color: red; */
-    width: 25rem;
-    margin-left: 6px;
+    width: 23rem;
+    margin-left: 0.60rem;
   }
 }
