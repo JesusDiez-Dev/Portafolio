@@ -91,7 +91,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/ClonMercado/">Ver proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/ClonMercado/">Ver proyecto</a>
               </div>
             </div>
           </div>
@@ -153,7 +153,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/AgendarCitas/">Ver proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/Agendar-Citas-Veterinaria/">Ver proyecto</a>
               </div>
             </div>
           </div>
@@ -234,7 +234,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/PokeApi/">Ver proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/PokeApi---Buscador/">Ver proyecto</a>
               </div>
             </div>
           </div>
@@ -309,7 +309,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/LaBarber/">Ver proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/LaBarber/">Ver proyecto</a>
               </div>
             </div>
           </div>
@@ -363,7 +363,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/Blog-Games/">Ver Proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/Blog-Games/">Ver Proyecto</a>
               </div>
             </div>
           </div>
@@ -422,7 +422,7 @@ function Proyectos() {
               </div>
 
               <div className="proyectos-grid-item-flex-boton">
-                <a href="https://yisus01.github.io/Portafolio-Web/">Ver proyecto</a>
+                <a href="https://jesusdiez-dev.github.io/Portafolio-Web/">Ver proyecto</a>
               </div>
             </div>
           </div>
